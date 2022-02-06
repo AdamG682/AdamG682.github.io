@@ -1,18 +1,18 @@
 /* Our style Sheet*/
 
 html {
+    background-color: black;
     cursor: url('data:image/x-icon;base64,AAACAAEAICAQAAMAAwDoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAD/AHNzcwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAACAgAAAAAAAAAAAAAAAAAAICAAAAAAAAAAAAAAAAAAAgIAAAAAAAAAAAAAAAAAACAgAAAAAAAAAAAAAAAAAAICAAAAAAAAAAAAAAAAAAASIAAAAAAAAAAAAAAAAAABEQAAAAAAAAAAAAAAAAAAERAAAAAAAAAAAAAAAAAAAREAAAAAAAAAAAAAAAAAABEQAAAAAAAAAAAAAAAAAAERAAAAAAAAAAAAAAAAAAAREAAAAAAAAAAAAAAAAAABEQAAAAAAAAAAAAAAAAAAERAAAAAAAAAAAAAAAAAAAREAAAAAAAAAAAAAAAAAABEQAAAAAAAAAAAAAAAAAAERAAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD////////////////////////////////////////////////////////z////4////8f///+P////H////j////x////4////8f///+P////H////j////x////4////8f///+P////H////j////5////////////////////w=='), auto;
 }
 
 h1.WebpageTitle {
-    font-size: 90px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: italic;
+    font-size: 100px;
+    font-family: 'Pathway Gothic One', sans-serif;
     font-weight: bold;
     font-display: swap;
     text-align: center;
-    color: white;
-    text-shadow: 5px 5px black;
+    color: #FFC30B;
+    text-shadow: 5px 5px #2E4558;
     padding: 0;
 }
 
@@ -44,7 +44,8 @@ ul.navigation {
     text-align: center;
     overflow: hidden;
     background-color: #FFC30B;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-weight: bold;
 }
 
     ul.navigation li {
@@ -73,61 +74,69 @@ ul.navigation {
 }
 
 .responsiveImg {
-    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
     height: auto;
+    border: 3px solid white;
+    
 }
-
 
 /*Styling for Sequel Section*/
 #SequelHeader {
     font-style: italic;
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
     color: white;
+    text-shadow: 3px 3px black;
     overflow: hidden;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Pathway Gothic One', sans-serif;
 }
 
 #subTitleHeader {
     font-style: italic;
     padding: 5px;
     text-align: center;
-    font-size: 32px;
+    font-size: 45px;
     overflow: hidden;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Pathway Gothic One', sans-serif;
 }
 
     #subTitleHeader a {
-        color: black;
+        color: whitesmoke;
     }
 
         #subTitleHeader a:hover {
-            color: whitesmoke;
+            color: black;
         }
 
 
 #subTitleBackground {
-    background-color: slategrey;
+    background-color: #2E4558;
 }
 
 #subTitleRating {
-    font-style: italic;
     padding: 5px;
     text-align: center;
     font-size: 32px;
     overflow: hidden;
     color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Pathway Gothic One', sans-serif;
 }
     #subTitleRating a {
-        color: black;
+        color: whitesmoke;
     }
 
         #subTitleRating a:hover {
-            color: whitesmoke;
+            color: black;
         }
 
 /*Column/Mobile Design*/
+* {
+    box-sizing: border-box;
+}
+
 [class*="col-"] {
     width: 100%;
 }
