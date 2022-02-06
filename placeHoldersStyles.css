@@ -4,6 +4,19 @@ html {
     cursor: url('data:image/x-icon;base64,AAACAAEAICAQAAMAAwDoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAD/AHNzcwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAACAgAAAAAAAAAAAAAAAAAAICAAAAAAAAAAAAAAAAAAAgIAAAAAAAAAAAAAAAAAACAgAAAAAAAAAAAAAAAAAAICAAAAAAAAAAAAAAAAAAASIAAAAAAAAAAAAAAAAAABEQAAAAAAAAAAAAAAAAAAERAAAAAAAAAAAAAAAAAAAREAAAAAAAAAAAAAAAAAABEQAAAAAAAAAAAAAAAAAAERAAAAAAAAAAAAAAAAAAAREAAAAAAAAAAAAAAAAAABEQAAAAAAAAAAAAAAAAAAERAAAAAAAAAAAAAAAAAAAREAAAAAAAAAAAAAAAAAABEQAAAAAAAAAAAAAAAAAAERAAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD////////////////////////////////////////////////////////z////4////8f///+P////H////j////x////4////8f///+P////H////j////x////4////8f///+P////H////j////5////////////////////w=='), auto;
 }
 
+h1.WebpageTitle {
+    font-size: 90px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-display: swap;
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px black;
+    padding: 0;
+}
+
+
 /*Font Styling for Text*/
 .paraformat {
     font-size: 22px;
@@ -17,6 +30,11 @@ html {
     display: table;
     overflow: hidden;
 }
+
+a {
+    text-decoration: none;
+}
+
 
 /*Nav Bar*/
 ul.navigation {
@@ -54,21 +72,20 @@ ul.navigation {
     background-size: cover;
 }
 
-img {
-    width: 600px;
-    border: 1px solid white;
+.responsiveImg {
+    width: 25%;
+    height: auto;
 }
 
 
 /*Styling for Sequel Section*/
 #SequelHeader {
     font-style: italic;
-    background-color: #3C1053FF;
-    padding: 5px;
     text-align: center;
     font-size: 50px;
     color: white;
     overflow: hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #subTitleHeader {
@@ -77,6 +94,7 @@ img {
     text-align: center;
     font-size: 32px;
     overflow: hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
     #subTitleHeader a {
@@ -99,6 +117,17 @@ img {
     font-size: 32px;
     overflow: hidden;
     color: #3C1053FF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#picBackground {
+    padding: 15px;
+    background-color: steelblue;
+    border-radius: 10px;
+    width: auto;
+    height: 75%;
+    display: block;
+    overflow-x: auto;
 }
 
 /*Column/Mobile Design*/
