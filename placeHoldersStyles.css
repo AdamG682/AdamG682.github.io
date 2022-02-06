@@ -66,14 +66,14 @@ ul.navigation {
 
 /*Background*/
 #ImageBackground {
-    background-color: black;
+    background-image: url('https://www.teahub.io/photos/full/92-927112_3d-hd-star-wars-jump-to-lightspeed-hyperspace.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
 .responsiveImg {
-    width: 25%;
+    width: 35%;
     height: auto;
 }
 
@@ -116,19 +116,16 @@ ul.navigation {
     text-align: center;
     font-size: 32px;
     overflow: hidden;
-    color: #3C1053FF;
+    color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+    #subTitleRating a {
+        color: black;
+    }
 
-#picBackground {
-    padding: 15px;
-    background-color: steelblue;
-    border-radius: 10px;
-    width: auto;
-    height: 75%;
-    display: block;
-    overflow-x: auto;
-}
+        #subTitleRating a:hover {
+            color: whitesmoke;
+        }
 
 /*Column/Mobile Design*/
 [class*="col-"] {
