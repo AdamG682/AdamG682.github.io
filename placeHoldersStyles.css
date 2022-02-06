@@ -1,5 +1,22 @@
 /* Our style Sheet*/
 
+html {
+    cursor: url('data:image/x-icon;base64,AAACAAEAICAQAAMAAwDoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAD/AHNzcwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAACAgAAAAAAAAAAAAAAAAAAICAAAAAAAAAAAAAAAAAAAgIAAAAAAAAAAAAAAAAAACAgAAAAAAAAAAAAAAAAAAICAAAAAAAAAAAAAAAAAAASIAAAAAAAAAAAAAAAAAABEQAAAAAAAAAAAAAAAAAAERAAAAAAAAAAAAAAAAAAAREAAAAAAAAAAAAAAAAAABEQAAAAAAAAAAAAAAAAAAERAAAAAAAAAAAAAAAAAAAREAAAAAAAAAAAAAAAAAABEQAAAAAAAAAAAAAAAAAAERAAAAAAAAAAAAAAAAAAAREAAAAAAAAAAAAAAAAAABEQAAAAAAAAAAAAAAAAAAERAAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD////////////////////////////////////////////////////////z////4////8f///+P////H////j////x////4////8f///+P////H////j////x////4////8f///+P////H////j////5////////////////////w=='), auto;
+}
+
+/*Font Styling for Text*/
+.paraformat {
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: antiquewhite;
+    text-align: center;
+    content: "";
+    clear: both;
+    display: table;
+    overflow: hidden;
+}
 
 /*Nav Bar*/
 ul.navigation {
@@ -8,8 +25,8 @@ ul.navigation {
     padding: 5px;
     text-align: center;
     overflow: hidden;
-    background-color: #CBCE91FF;
-    font-family: 'Pathway Gothic One', sans-serif;
+    background-color: #FFC30B;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
     ul.navigation li {
@@ -29,6 +46,60 @@ ul.navigation {
                 color: dimgray;
             }
 
+/*Background*/
+#ImageBackground {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+img {
+    width: 600px;
+    border: 1px solid white;
+}
+
+
+/*Styling for Sequel Section*/
+#SequelHeader {
+    font-style: italic;
+    background-color: #3C1053FF;
+    padding: 5px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    overflow: hidden;
+}
+
+#subTitleHeader {
+    font-style: italic;
+    padding: 5px;
+    text-align: center;
+    font-size: 32px;
+    overflow: hidden;
+}
+
+    #subTitleHeader a {
+        color: black;
+    }
+
+        #subTitleHeader a:hover {
+            color: whitesmoke;
+        }
+
+
+#subTitleBackground {
+    background-color: slategrey;
+}
+
+#subTitleRating {
+    font-style: italic;
+    padding: 5px;
+    text-align: center;
+    font-size: 32px;
+    overflow: hidden;
+    color: #3C1053FF;
+}
 
 /*Column/Mobile Design*/
 [class*="col-"] {
