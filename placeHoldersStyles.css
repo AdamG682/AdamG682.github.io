@@ -12,7 +12,7 @@ body {
 
 .crawl-head,
 .crawl-text {
-    color: #FFFF82;
+    color: #FFC30B;
     margin: auto;
 }
 
@@ -23,7 +23,7 @@ body {
 
 /* Set the font, lean the board, position it */
 #board {
-    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-family: 'Pathway Gothic One', sans-serif;
     transform: perspective(300px) rotateX(25deg);
     transform-origin: 50% 100%;
     text-align: justify;
@@ -48,7 +48,7 @@ body {
     }
 
 #content {
-    animation: scroll 100s linear 0s;
+    animation: scroll 100s linear 0s infinite;
     margin: auto;
     position: absolute;
     top: 70%;
@@ -61,10 +61,12 @@ body {
 @keyframes scroll {
     0% {
         top: 100%;
+        
     }
 
     100% {
-        top: -170%;
+        top: 30%;
+        opacity: 0;
     }
 }
 
