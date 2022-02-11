@@ -139,6 +139,13 @@ ul.navigation {
     background-size: cover;
 }
 
+.responsiveVid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid white;
+}
+
 
 .responsiveImg {
     display: block;
