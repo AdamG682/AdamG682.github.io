@@ -290,3 +290,8 @@ ul.navigation {
     margin-right: auto;
     width: 50%;
 }
+
+iframe{
+    width: 100%;
+    height: auto;
+}
