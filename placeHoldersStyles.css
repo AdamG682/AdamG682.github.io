@@ -190,6 +190,28 @@ box-shadow: none;
     box-shadow: 0 8px 20px 0px rgba(0,0,0,0.125);
 }
 
+/* Hidden Text Image with help from: https://makitweb.com/html-how-to-show-text-above-image-on-hover/*/
+/*This houses the text propeties for the image*/
+.contentImg div{
+    visibility: hidden;
+    position:absolute;
+    bottom: 1;
+    right: auto;
+    background: black;
+    color: white;
+    opacity: 0;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear
+}
+
+.contentImg:hover div{
+    width: auto;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7;
+}
+
+
 /*Styling for Sequel Section*/
 #SequelHeader {
     font-style: italic;
@@ -335,3 +357,5 @@ iframe{
     margin-right: auto;
     width: 50%;
 }
+
+
