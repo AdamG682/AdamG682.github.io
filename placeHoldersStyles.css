@@ -123,12 +123,11 @@ ul.navigation {
             color: white;
             font-size: 25px;
             padding: 20px 20px;
-            border-radius: 10px;
             text-decoration: none;
         }
 
             ul.navigation li a:hover {
-                color: dimgray;
+                background-color: #2E4558;
             }
 
 /*Background*/
