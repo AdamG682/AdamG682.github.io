@@ -262,6 +262,19 @@ box-shadow: none;
             color: black;
         }
 
+/*Image Blur Animation*/
+.zoom {
+    padding: 50px;
+    transition: transform .2s;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.1);
+    filter: blur(10px)
+  }
+
+
 /*Column/Mobile Design*/
 * {
     box-sizing: border-box;
