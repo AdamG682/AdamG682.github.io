@@ -243,6 +243,7 @@ box-shadow: none;
 
 #subTitleBackground {
     background-color: #2E4558;
+    border-radius: 7px;
 }
 
 #subTitleRating {
@@ -263,7 +264,27 @@ box-shadow: none;
 
 /*Image Blur Animation*/
 
+.blur:hover{
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+}
 
+/*Loading Animation*/
+.loading{
+    animation: loadingAnimation 2s
+}
+
+@keyframes loadingAnimation {
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
 
 /*Column/Mobile Design*/
 * {
