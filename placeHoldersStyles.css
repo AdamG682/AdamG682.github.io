@@ -127,7 +127,14 @@ ul.navigation {
         }
 
             ul.navigation li a:hover {
+                text-decoration: none;
                 background-color: #2E4558;
+                padding: 15px 20px;
+                border-radius: 5px;
+                font-weight: bold;
+                transition: all 0.3s ease-in-out;
+                margin: 0 10px;
+                box-shadow: 0 0 10px steelblue, 0 0 10px steelblue, 0 0 20px #edd;
             }
 
 /*Background*/
@@ -243,7 +250,7 @@ box-shadow: none;
 
 #subTitleBackground {
     background-color: #2E4558;
-    border-radius: 7px;
+    border-radius: 5px;
 }
 
 #subTitleRating {
