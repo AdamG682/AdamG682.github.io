@@ -148,10 +148,9 @@ nav a{
 nav a:hover{
     text-decoration: none;
     background-color: #2E4558;
-    padding: 10px 30px;
+    padding: 10px 40px;
     border-radius: 5px;
     transition: all 0.3s ease-in-out;
-    margin: 0 10px;
     box-shadow: 0 0 10px steelblue, 0 0 10px steelblue, 0 0 20px #edd;
 }
 
@@ -304,9 +303,6 @@ nav > ul > li{
         transform: rotateX(0);
     }
 }
-
-
-/*Title Link Animation*/
 
 
 /*Column/Mobile Design*/
