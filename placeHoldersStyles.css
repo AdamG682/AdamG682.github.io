@@ -400,7 +400,7 @@ iframe{
     width: 50%;
 }
 
-/* Thomas' Animation*/
+/* Thomas' Animation and style changes*/
 
 @keyframes moveDroid{
     0% {left: 10%; top: 90%}
@@ -431,3 +431,71 @@ iframe{
     animation-iteration-count: infinite;
     position: absolute;
 }
+
+#thomasChanges{
+    font-style: italic;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    text-shadow: 3px 3px grey;
+    overflow: hidden;
+    font-family: 'Pathway Gothic One', sans-serif;
+    background-image: url("https://static.wikia.nocookie.net/starwars/images/9/99/Jakku.png/revision/latest?cb=20141211224012");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 800px 100px;
+}
+
+
+.paragraphLinks{
+    color: burlywood;
+}
+    .paragraphLinks:hover{
+    color: black;
+    }
+
+/*Braxton Chapman custom ids and classes*/
+
+p.braxton{
+    color:#D8BD96;
+    font-size: 120%;
+    border-color: #D8BD96;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+    content: "";
+    clear: both;
+    display: table;
+    overflow: hidden;
+}
+img.braxton{
+    box-shadow: 5px 10px;
+    color:#D8BD96;
+}
+#responsiveImgb {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    height: auto;
+    
+}
+
+#rects {
+    animation-name: rainbow;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes rainbow {
+    0% {
+      background-color: blue;
+    }
+    50% {
+      background-color: green;
+    }
+    100% {
+      background-color: yellow;
+    }
+  }
