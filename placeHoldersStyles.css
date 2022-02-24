@@ -48,7 +48,7 @@ body {
     }
 
 #content {
-    animation: scroll 100s linear 0s infinite;
+    animation: scroll 60s linear 0s infinite;
     margin: auto;
     position: absolute;
     top: 70%;
@@ -171,54 +171,9 @@ nav > ul > li{
 }
 
 
-/* .navigation {
-    list-style-type: none;
-    margin: 0;
-    padding: 5px;
-    text-align: center;
-    overflow: hidden;
-    background-color: #FFC30B;
-    font-family: 'Pathway Gothic One', sans-serif;
-    font-weight: bold;
-}
-
-.dropdown{
-    visibility: hidden;
-    opacity: 0;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    transform: translateY(-3em);
-    z-index: -1;
-    transition: all 0.3s ease 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01;
-}
-    ul.navigation li {
-        display: inline-block;
-    }
-
-        ul.navigation li a {
-            display: block;
-            color: white;
-            font-size: 25px;
-            padding: 20px 20px;
-            text-decoration: none;
-        }
-
-            ul.navigation li a:hover {
-                text-decoration: none;
-                background-color: #2E4558;
-                padding: 15px 20px;
-                border-radius: 5px;
-                font-weight: bold;
-                transition: all 0.3s ease-in-out;
-                margin: 0 10px;
-                box-shadow: 0 0 10px steelblue, 0 0 10px steelblue, 0 0 20px #edd;
-            } */
-
 /*Background*/
 #ImageBackground {
-    background-image: url('https://www.teahub.io/photos/full/92-927112_3d-hd-star-wars-jump-to-lightspeed-hyperspace.jpg');
+    background-image: url('https://cdn.wallpapersafari.com/1/97/co341S.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -240,39 +195,6 @@ nav > ul > li{
     height: auto;
     border: 3px solid white;
     
-}
-
-.imageWrap{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10%;
-}
-
-
-.imageBlur{
-padding: 30px;
-margin: 2%;
-background: #fff;
-width: 30%;
-border: 1px solid #d6d6d6;
-box-shadow: 0 2px 3px 0px rgba(0,0,0,0.25);
-border-radius: 3px;
-transition: 0.2s all;
-}
-
-.imageWrap:hover .imageBlur{
-filter: blue(3px);
-opacity: 0.5;
-transform: scale(0.98);
-box-shadow: none;
-}
-
-.imageWrap:hover .imageBlur:hover{
-    transform: scale(1);
-    filter: blur(0px);
-    opacity: 1;
-    box-shadow: 0 8px 20px 0px rgba(0,0,0,0.125);
 }
 
 /* Hidden Text Image with help from: https://makitweb.com/html-how-to-show-text-above-image-on-hover/*/
@@ -329,7 +251,7 @@ box-shadow: none;
 
 #subTitleBackground {
     background-color: #2E4558;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 #subTitleRating {
