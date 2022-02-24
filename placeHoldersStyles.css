@@ -499,3 +499,79 @@ img.braxton{
       background-color: yellow;
     }
   }
+
+
+ /*Adam Giles Custom IDs and Class for Bio Page*/
+
+.steamHeader{
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    overflow: hidden;
+    background-color: black;
+    padding: 15px 15px;
+    border-radius: 10px;
+    width: 75%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform .2s;
+}
+
+.steamHeader:hover{
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 10px steelblue, 0 0 10px steelblue, 0 0 20px #edd;
+}
+ 
+ #adamSteamProfile{
+     animation-name: color;
+     animation-duration: 10s;
+     animation-iteration-count: infinite;
+ }
+  
+  @keyframes color {
+    0% {
+      color: #436aac;
+    }
+    25% {
+      color: #43b7b8;
+    }
+    50% {
+      color: #8929ad;
+    }
+    75% {
+        color: #43b7b8;
+    }
+    100% {
+        color: #436aac;
+    }
+  }
+
+
+#animatedBackground {
+    background: linear-gradient(45deg, #436aac, #43b7b8, #8929ad);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	height: 100vh;
+    border-radius: 10px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#textBackground{
+    background-color: #2E4558;
+    border-radius: 10px;
+    box-shadow: 5px 5px black;
+}
