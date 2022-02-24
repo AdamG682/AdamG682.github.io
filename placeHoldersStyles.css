@@ -436,3 +436,49 @@ iframe{
     animation-iteration-count: infinite;
     position: absolute;
 }
+
+/*Braxton Chapman custom ids and classes*/
+
+p.braxton{
+    color:#D8BD96;
+    font-size: 120%;
+    border-color: #D8BD96;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+    content: "";
+    clear: both;
+    display: table;
+    overflow: hidden;
+}
+img.braxton{
+    box-shadow: 5px 10px;
+    color:#D8BD96;
+}
+#responsiveImgb {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    height: auto;
+    
+}
+
+#rects {
+    animation-name: rainbow;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes rainbow {
+    0% {
+      background-color: blue;
+    }
+    50% {
+      background-color: green;
+    }
+    100% {
+      background-color: yellow;
+    }
+  }
