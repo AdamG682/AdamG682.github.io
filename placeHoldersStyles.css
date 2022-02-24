@@ -454,6 +454,22 @@ iframe{
     color: black;
     }
 
+#headerBoarder{
+    border: 2px;
+    border-style: groove;
+    border-radius: 10px;
+    border-color: #FFC30B;
+    border-block-width: 10px;
+    font-style: italic;
+    padding: 5px;
+    text-align: center;
+    font-size: 45px;
+    overflow: hidden;
+    color: whitesmoke;
+    font-family: 'Pathway Gothic One', sans-serif;
+
+}
+
 /*Braxton Chapman custom ids and classes*/
 
 p.braxton{
