@@ -16,11 +16,6 @@ body {
     margin: auto;
 }
 
-/* div {
-  text-align: justify;
-  width: 100%;
-} */
-
 /* Set the font, lean the board, position it */
 #board {
     font-family: 'Pathway Gothic One', sans-serif;
@@ -48,7 +43,7 @@ body {
     }
 
 #content {
-    animation: scroll 60s linear 0s infinite;
+    animation: scroll 45s linear 0s infinite;
     margin: auto;
     position: absolute;
     top: 70%;
