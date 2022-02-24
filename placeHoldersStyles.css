@@ -408,21 +408,21 @@ iframe{
 /* Thomas' Animation*/
 
 @keyframes moveDroid{
-    0% {left: 10%; top: 80%}
+    0% {left: 10%; top: 90%}
     10%{left: 20%; top: 90%}
-    20%{left: 30%; top: 70%}
-    30%{left: 40%; top: 60%}
-    40%{left: 50%; top: 80%}
-    50%{left: 50%; top: 70%}
-    60%{left: 60%; top: 90%}
-    70%{left: 50%; top: 80%}
-    80%{left: 40%; top: 60%}
-    90%{left: 30%; top: 80%}
-    100%{left: 10%; top: 80%}
+    20%{left: 30%; top: 90%}
+    30%{left: 40%; top: 90%}
+    40%{left: 40%; top: 90%}
+    50%{left: 30%; top: 90%}
+    60%{left: 20%; top: 90%}
+    70%{left: 10%; top: 90%}
+    80%{left: 20%; top: 90%}
+    90%{left: 20%; top: 90%}
+    100%{left: 10%; top: 90%}
 }
 
 .huntsDroid{
-    background-image: src="Images\hunterDroid.png";
+    background-image: url("Images\BB8.png");
     min-width: 60px;
     height: 50px;
     background-size: 60px;
