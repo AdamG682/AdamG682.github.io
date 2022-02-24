@@ -270,10 +270,20 @@ box-shadow: none;
         }
 
 /*Image Blur Animation*/
+.blur{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-.blur:hover{
-    -webkit-filter: blur(10px);
+.blur:hover .responsiveImg{
     filter: blur(10px);
+}
+
+.blur .responsiveImg:hover{
+    filter: blur(0px);
+    transition: transform .5s;
+    transform: scale(1.05);
 }
 
 /*Loading Animation*/
