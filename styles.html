@@ -1,96 +1,106 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <style>
-/* Thomas' Style changes*/
-.italics{
-    font-style: italic;
-}
+    /* Thomas' Style changes*/
+    .italics {
+        font-style: italic;
+    }
 
-.paragraphBorder{
-    border: 2px;
-    border-style: groove;
-    border-radius: 6px;
-    border-color: #FFC30B;
-}
+    .paragraphBorder {
+        border: 2px;
+        border-style: groove;
+        border-radius: 6px;
+        border-color: #FFC30B;
+    }
 
-p {
-    line-height: 35px;
-}
-
-
-
-
-
+    p {
+        line-height: 35px;
+    }
 </style>
-    <head>
-        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-        <meta charset="utf-8" />
-        <title>Style page</title>
-        <link rel="stylesheet" href='placeHoldersStyles.css'>
-        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Pathway Gothic One'>
-    </head>
-    
-    <body>
-        <!--Main Title of Webpage-->
-        <header>
-            <h1 class="WebpageTitle">Star Wars Know It All</h1>
-        </header>
-    
-        <!--Nav Bar Across Entire Website-->
-        <div class="col-12">
-            <ul class="navigation">
-                <li><a class="active" href="index.html">Home Page</a></li>
-                <li><a href="what.html">What is Star Wars</a></li>
-                <li><a href="eraCollection.html">Star Wars Eras</a></li>
-                <li><a href="PersonalOpinions.html">Personal Opinions</a></li>
-                <li><a href="nestedAdam.html">Future Projects to Come</a></li>
-                <li><a href="styles.html">Styles</a></li>
+
+<head>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta charset="utf-8" />
+    <title>Style page</title>
+    <link rel="stylesheet" href='placeHoldersStyles.css'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Pathway Gothic One'>
+</head>
+
+<body>
+    <!--Main Title of Webpage-->
+    <header>
+        <h1 class="WebpageTitle">Star Wars Know It All</h1>
+    </header>
+
+    <!--Nav Bar Across Entire Website-->
+    <div class="col-12">
+        <nav>
+            <ul>
+                <li class="navigation"><a class="active" href="index.html">Home Page</a></li>
+                <li class="navigation"><a href="what.html">What is Star Wars</a></li>
+                <li class="navigation"><a href="eraCollection.html">Star Wars Eras</a></li>
+                <li class="navigation"><a href="PersonalOpinions.html">Personal Opinions</a></li>
+                <li class="navigation"><a href="nestedAdam.html">Future Projects to Come</a></li>
+                <li class="navigation"><a href="styles.html">Fun Styles</a></li>
+                <li class="navigation"><a href="eraCollection.html">Meet Our Team</a>
+                    <ul class="dropdown">
+                        <li><a href="thomasRuiz.html">Thomas</a></li>
+                        <li><a href="Braxton.html">Braxton</a></li>
+                        <li><a href="sequelTrilogyAdam.html">Adam</a></li>
+                    </ul>
+                </li>
             </ul>
-        </div>
+        </nav>
+    </div>
 
-        <div class="col-12" id="ImageBackground">
+    <div class="col-12" id="ImageBackground">
 
-            <div class="col-1"></div>
-    
-            <div id="subTitleBackground" class="col-10">
-    
+        <div class="col-1"></div>
+
+        <div id="subTitleBackground" class="col-10">
+            <div class="loading">
                 <div class='row'>
-    
+
                     <!--Sub Title for Specific Webpage-->
                     <div class='col-12'>
                         <h1 id="SequelHeader">Our Styles</h1>
                     </div>
-    
+
                 </div>
 
                 <div class='row'>
-                    
+
                     <div class="col-12">
-    
+
                         <div class="row">
                             <div class="col-6 contentImg">
-                                <img src="Images\Maxrebo.jpg" class="responsiveImg imageBlur" style="height: 300px; width: 450px;" alt="Ahsoka Tano">
+                                <img src="Images\Maxrebo.jpg" class="responsiveImg imageBlur"
+                                    style="height: 300px; width: 450px;" alt="Ahsoka Tano">
                                 <div> The Legend that is Max Reebo</div>
                             </div>
                             <div class='col-6'>
-            
+
                                 <h3 id="subTitleHeader">Thomas' Styles</h3>
-                                <p class="paraformat italics paragraphBorder ">For my inline style changes I didn't do anything too
+                                <p class="paraformat italics paragraphBorder ">For my inline style changes I didn't do
+                                    anything too
                                     crazy. I added a border to this paragraph text, changed the spacing in between
-                                    each line, and made the text italicised. Some things I did with the css portion was create a 
-                                    text hover function for our image. This works in conjuntion with an image blur function Adam created
-                                    and I added in the parts that allowed the text to be invisblie untile hovering. 
+                                    each line, and made the text italicised. Some things I did with the css portion was
+                                    create a
+                                    text hover function for our image. This works in conjuntion with an image blur
+                                    function Adam created
+                                    and I added in the parts that allowed the text to be invisblie untile hovering.
                                 </p>
                             </div>
-    
+
                         </div>
                     </div>
-    
+
                 </div>
 
 
 
             </div>
+        </div>
 
 
 
