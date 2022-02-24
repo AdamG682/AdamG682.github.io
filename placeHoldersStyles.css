@@ -389,3 +389,33 @@ iframe{
     width: 50%;
 }
 
+/*Thomas' Animation*/
+ 
+@keyframes moveDroid{
+    0% {left: 10%; top: 80%}
+    10%{left: 20%; top: 90%}
+    20%{left: 30%; top: 70%}
+    30%{left: 40%; top: 60%}
+    40%{left: 50%; top: 80%}
+    50%{left: 50%; top: 70%}
+    60%{left: 60%; top: 90%}
+    70%{left: 50%; top: 80%}
+    80%{left: 40%; top: 60%}
+    90%{left: 30%; top: 80%}
+    100%{left: 10%; top: 80%}
+}
+
+.huntsDroid{
+    background-image: src="Images\hunterDroid.png";
+    min-width: 60px;
+    height: 50px;
+    background-size: 60px;
+}
+
+.moveDroid{
+    animation-name: moveDroid;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    position: absolute;
+}
