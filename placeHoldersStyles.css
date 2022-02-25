@@ -12,6 +12,15 @@ a {
     text-decoration: none;
 }
 
+hr {
+    color: whitesmoke;
+}
+
+div.floatRight {
+    float: right;
+    padding-left: 20px;
+}
+
 #SequelHeader {
     font-style: italic;
     text-align: center;
@@ -83,6 +92,86 @@ a {
     width: 65%;
     height: auto;
     border: 3px solid white;
+}
+
+
+/*what page Changes*/
+
+.whatPictures {
+    width: 90%;
+    height: 90%;
+}
+
+.adamWhatPic {
+    width: 50%;
+    height: 50%;
+    border: 0px;
+}
+
+.whatFontChange {
+    font-size: 25px;
+}
+
+.biggerWhatChange {
+    font-size: 35px;
+}
+
+.ogTrilogyEra {
+    width: 94.7%;
+    height: 94.7%;
+}
+
+.sequelEra {
+    width: 93.5%;
+    height: 93.5%;
+}
+
+
+/*Spotify Styles*/
+
+.spotify {
+    width: 100%;
+    height: 380;
+    border-radius: 12px;
+}
+
+
+/*Nested page changes*/
+
+hr {
+    border: 3px solid whitesmoke;
+}
+
+.youtubeSize {
+    height: 300;
+    width: 500;
+}
+
+.ObiNested {
+    width: 90.2%;
+    height: 90.2%;
+}
+
+.acolyteNested {
+    width: 89%;
+    height: 89%;
+}
+
+
+/*Opinions page changes*/
+
+.adamOpinionPictureOne {
+    width: 44.5%;
+    height: 44.5%;
+}
+
+.adamOpinionPictureTwo {
+    width: 55%;
+    height: 55%;
+}
+
+.autoMargins {
+    margin: auto;
 }
 
 
@@ -681,78 +770,3 @@ h3.creatorText {
 
 
 /*OTHER IDs WERE USED FOR ANIMATIONS (TEXT CRAWL, BACKGROUND COLOR, TEXT COLOR)*/
-
-/*what page Changes*/
-.whatPictures{
-    width: 90%;
-    height: 90%;
-}
-
-.adamWhatPic{
-    width: 50%;
-    height: 50%;
-    border: 0px;
-}
-
-.whatFontChange{
-    font-size: 25px;
-}
-
-.biggerWhatChange{
-    font-size: 35px;
-}
-
-.ogTrilogyEra{
-    width: 94.7%;
-    height: 94.7%;
-}
-.sequelEra{
-    width: 93.5%;
-    height: 93.5%;
-}
-
-/*Spotify Styles*/
-
-.spotify{
-    width: 100%;
-    height: 380;
-    border-radius: 12px;
-}
-
-/*Nested page changes*/
-
-hr{
-    border: 3px solid whitesmoke;
-}
-
-.youtubeSize{
-    height: 300;
-    width: 500;
-}
-
-.ObiNested{
-    width: 90.2%;
-    height: 90.2%;
-}
-
-.acolyteNested{
-    width: 89%;
-    height: 89%;
-}
-
-/*Opinions page changes*/
-
-.adamOpinionPictureOne{
-    width: 44.5%;
-    height: 44.5%;
-}
-
-
-.adamOpinionPictureTwo{
-    width: 55%;
-    height: 55%;
-}
-
-.autoMargins{
-    margin: auto;
-}
