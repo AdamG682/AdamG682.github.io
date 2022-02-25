@@ -681,3 +681,22 @@ h3.creatorText {
 
 
 /*OTHER IDs WERE USED FOR ANIMATIONS (TEXT CRAWL, BACKGROUND COLOR, TEXT COLOR)*/
+
+.whatPictures{
+    width: 80%;
+    height: 90%;
+}
+
+.adamWhatPic{
+    width: 50%;
+    height: 50%;
+    border: 0px;
+}
+
+.whatFontChange{
+    font-size: 25px;
+}
+
+.biggerWhatChange{
+    font-size: 35px;
+}
