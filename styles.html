@@ -2,100 +2,120 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <style>
     /* Thomas' Style changes*/
+    
     .italics {
         font-style: italic;
     }
-
+    
     .paragraphBorder {
         border: 2px;
         border-style: groove;
         border-radius: 6px;
         border-color: #FFC30B;
     }
-
+    
     p {
         line-height: 35px;
     }
-/* Thomas' Style changes*/
-.italics{
-    font-style: italic;
-}
-
-.paragraphBorder{
-    border: 2px;
-    border-style: groove;
-    border-radius: 6px;
-    border-color: #FFC30B;
-}
-
-.lineHeight {
-    line-height: 35px;
-}
-
-/* Braxtons' Style changes*/
-    p.braxton{
-        color:#D8BD96;
+    /* Thomas' Style changes*/
+    
+    .italics {
+        font-style: italic;
+    }
+    
+    .paragraphBorder {
+        border: 2px;
+        border-style: groove;
+        border-radius: 6px;
+        border-color: #FFC30B;
+    }
+    
+    .lineHeight {
+        line-height: 35px;
+    }
+    /* Braxtons' Style changes*/
+    
+    p.braxton {
+        color: #D8BD96;
         font-size: 120%;
         padding: 30px;
     }
-    img.braxton{
+    
+    img.braxton {
         box-shadow: 5px 10px;
-        color:black;
+        color: black;
     }
-
-
-/*Adam's Inline and Style Section Changes*/
-hr{
-    color: steelblue;
-    line-height: 5px;
-}
-
-#styleHeader {
-    animation-name: color-shift;
-    animation-duration: 15s;
-    animation-iteration-count: infinite;
-    font-family: 'Pathway Gothic One', sans-serif;
-    font-size: 40px;
-    font-style: italic;
-    color: white;
-    text-align: center;
-    border-radius: 10px;
-    padding: 15px 15px;
-    width: 75%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 3px 3px white;
-}
-
-@keyframes color-shift {
-    0% {
-        background-color: #436aac;
+    /*Adam's Inline and Style Section Changes*/
+    
+    hr {
+        color: steelblue;
+        line-height: 5px;
     }
-    25% {
-        background-color: #43b7b8;
+    
+    #ReboLink {
+        font-style: italic;
+        padding: 5px;
+        text-align: center;
+        font-size: 45px;
+        overflow: hidden;
+        color: whitesmoke;
+        font-family: 'Pathway Gothic One', sans-serif;
     }
-    50% {
-        background-color: #8929ad;
+    
+    #ReboLink a {
+        color: whitesmoke;
     }
-    75% {
-        background-color: #43b7b8;
+    
+    #ReboLink a:hover {
+        color: #FFC30B;
     }
-    100% {
-        background-color: #436aac;
+    
+    #styleHeader {
+        animation-name: color-shift;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+        font-family: 'Pathway Gothic One', sans-serif;
+        font-size: 40px;
+        font-style: italic;
+        color: white;
+        text-align: center;
+        border-radius: 10px;
+        padding: 15px 15px;
+        width: 75%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 3px 3px white;
     }
-}
-
-#reboImg{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 65%;
-    height: auto;
-    vertical-align: middle;
-}
-
-
+    
+    @keyframes color-shift {
+        0% {
+            background-color: #63d1c4;
+        }
+        25% {
+            background-color: #78517c;
+        }
+        50% {
+            background-color: #f17950;
+        }
+        75% {
+            background-color: #78517c;
+        }
+        100% {
+            background-color: #63d1c4;
+        }
+    }
+    
+    #reboImg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 75%;
+        height: auto;
+        border-radius: 20px;
+    }
 </style>
 
 <head>
@@ -153,20 +173,14 @@ hr{
 
                         <div class="row">
                             <div class="col-6 contentImg">
-                                <img src="Images\Maxrebo.jpg" class="responsiveImg imageBlur"
-                                    style="height: 300px; width: 450px;" alt="Ahsoka Tano">
+                                <img src="Images\Maxrebo.jpg" class="responsiveImg imageBlur" style="height: 300px; width: 450px;" alt="Ahsoka Tano">
                                 <div> The Legend that is Max Reebo</div>
                             </div>
                             <div class='col-6'>
 
                                 <h3 id="subTitleHeader">Thomas' Styles</h3>
-                                <p class="paraformat italics paragraphBorder lineHeight">For my inline style changes I didn't do anything too
-                                    crazy. I added a border to this paragraph text, changed the spacing in between
-                                    each line, and made the text italicised. Some things I did with the css portion was
-                                    create a
-                                    text hover function for our image. This works in conjuntion with an image blur
-                                    function Adam created
-                                    and I added in the parts that allowed the text to be invisblie untile hovering.
+                                <p class="paraformat italics paragraphBorder lineHeight">For my inline style changes I didn't do anything too crazy. I added a border to this paragraph text, changed the spacing in between each line, and made the text italicised. Some things I did with the css portion was create
+                                    a text hover function for our image. This works in conjuntion with an image blur function Adam created and I added in the parts that allowed the text to be invisblie untile hovering.
                                 </p>
                             </div>
 
@@ -182,8 +196,7 @@ hr{
 
                         <div class="row">
                             <div class="col-6 contentImg">
-                                <img src="Images\Maxrebo.jpg" class="braxton responsiveImg imageBlur"
-                                    style="height: 300px; width: 450px;" alt="Ahsoka Tano">
+                                <img src="Images\Maxrebo.jpg" class="braxton responsiveImg imageBlur" style="height: 300px; width: 450px;" alt="Ahsoka Tano">
                                 <div> The Legend that is Max Reebo</div>
                             </div>
                             <div class='col-6'>
@@ -204,20 +217,23 @@ hr{
                     <div class="col-12">
 
                         <div class="row">
-                            <div class="col-6 contentImg">
-                                <img src="Images\Rebo.gif" id="reboImg"
-                                    style="height: 300px; width: 450px;" alt="Max Rebo Fun">
-                                <div></div>
+                            <div class="col-6">
+                                <img src="Images\Rebo.gif" id="reboImg" alt="Max Rebo Fun">
+                                <br>
+                                <audio controls style="display: block; margin-right: auto;
+                                margin-left: auto; padding-left: 30px;">
+                                    <source src="maxReboBand.mp3" type="audio/mpeg">
+                                </audio>
                             </div>
                             <div class='col-6'>
                                 <hr>
                                 <h3 id="styleHeader">Adam's Inline Styles</h3>
-                                <p>In theme with the Rebo Nation, I also had my style section revolve around the legend.</p>
-                                <p style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: medium; color: whitesmoke;">
-                                    For this style section, I edited the font family and size of the paragraphs to be different from the header. I also was able to add an animation
-                                    that shifts colors for the header's background to represent the party animal that Max Reebo is.
+                                <p style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px; color: whitesmoke; text-align: center;">
+                                    In theme with the Rebo Nation, I also had my style section revolve around the legend. For this style section, I edited the font family and size of the paragraphs to be different from the header. I also was able to add an animation that shifts colors for
+                                    the header's background to represent the party animal that Max Reebo is. I have a GIF that is also sized accordingly based on the ID. Finally, I customized the HR tags to be modified in height and color along with adding
+                                    an audio player for fun with sizing styles.
                                 </p>
-                                <h3><a href="https://www.facebook.com/pages/category/Community/Max-Rebo-Band-Fans-Club-151529034898575/">Join the Fan Club</a></h3>
+                                <h3 id="ReboLink"><a href="https://www.facebook.com/pages/category/Community/Max-Rebo-Band-Fans-Club-151529034898575/">JOIN THE FAN CLUB</a></h3>
                                 <hr>
                             </div>
 
