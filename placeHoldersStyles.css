@@ -682,6 +682,7 @@ h3.creatorText {
 
 /*OTHER IDs WERE USED FOR ANIMATIONS (TEXT CRAWL, BACKGROUND COLOR, TEXT COLOR)*/
 
+/*what page Changes*/
 .whatPictures{
     width: 90%;
     height: 90%;
@@ -718,6 +719,40 @@ h3.creatorText {
     border-radius: 12px;
 }
 
+/*Nested page changes*/
+
 hr{
     border: 3px solid whitesmoke;
+}
+
+.youtubeSize{
+    height: 300;
+    width: 500;
+}
+
+.ObiNested{
+    width: 90.2%;
+    height: 90.2%;
+}
+
+.acolyteNested{
+    width: 89%;
+    height: 89%;
+}
+
+/*Opinions page changes*/
+
+.adamOpinionPictureOne{
+    width: 44.5%;
+    height: 44.5%;
+}
+
+
+.adamOpinionPictureTwo{
+    width: 55%;
+    height: 55%;
+}
+
+.autoMargins{
+    margin: auto;
 }
