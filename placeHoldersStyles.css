@@ -79,7 +79,7 @@ h1.WebpageTitle {
 
 
 /*Font Styling for Text*/
-.paraformat {
+p.paraformat {
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-right: 15px;
@@ -590,4 +590,22 @@ img.braxton{
     background-color: #2E4558;
     border-radius: 10px;
     box-shadow: 5px 5px black;
+}
+
+.roundedProfile{
+    border-radius: 50%;
+    display: block;
+    width: 150px;
+    height: 150px;
+    float: right;
+}
+
+h3.creatorText{
+    font-size: 35px;
+    font-style: italic;
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: antiquewhite;
+    margin-right: 30px;
+    text-align: right;
+    clear: right;
 }
