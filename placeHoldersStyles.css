@@ -683,7 +683,7 @@ h3.creatorText {
 /*OTHER IDs WERE USED FOR ANIMATIONS (TEXT CRAWL, BACKGROUND COLOR, TEXT COLOR)*/
 
 .whatPictures{
-    width: 80%;
+    width: 90%;
     height: 90%;
 }
 
@@ -699,4 +699,25 @@ h3.creatorText {
 
 .biggerWhatChange{
     font-size: 35px;
+}
+
+.ogTrilogyEra{
+    width: 94.7%;
+    height: 94.7%;
+}
+.sequelEra{
+    width: 93.5%;
+    height: 93.5%;
+}
+
+/*Spotify Styles*/
+
+.spotify{
+    width: 100%;
+    height: 380;
+    border-radius: 12px;
+}
+
+hr{
+    border: 3px solid whitesmoke;
 }
