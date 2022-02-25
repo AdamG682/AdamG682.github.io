@@ -325,9 +325,9 @@ p.paraformat {
 }
 
 .huntsDroid {
-    background-image: url("Images\BB8.png");
+    background-image: url("Images/BB8.png");
     min-width: 60px;
-    height: 50px;
+    height: 70px;
     background-size: 60px;
 }
 
