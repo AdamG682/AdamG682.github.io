@@ -782,3 +782,7 @@ h3.creatorText {
 
 
 /*OTHER IDs WERE USED FOR ANIMATIONS (TEXT CRAWL, BACKGROUND COLOR, TEXT COLOR)*/
+
+.imgWrap{
+    width: 60%;
+}
