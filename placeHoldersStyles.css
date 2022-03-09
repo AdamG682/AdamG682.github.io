@@ -785,5 +785,8 @@ h3.creatorText {
 
 /*Just testing this out */
 .imgWrap{
-    width: 60%;
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    padding-right: 5px;
 }
