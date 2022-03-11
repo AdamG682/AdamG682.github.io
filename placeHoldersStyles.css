@@ -344,6 +344,7 @@ h1.WebpageTitle {
     color: #FFC30B;
     text-shadow: 5px 5px #2E4558;
     padding: 0;
+    background-color: black;
 }
 
 p.paraformat {
@@ -789,4 +790,8 @@ h3.creatorText {
     height: auto;
     overflow: hidden;
     padding-right: 5px;
+}
+
+.navFont{
+    font-size: 25px;;
 }
