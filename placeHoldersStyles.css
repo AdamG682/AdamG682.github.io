@@ -178,8 +178,8 @@ hr {
 
 .navigation {
     position: relative;
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 20px;
+
 }
 
 .dropdownCool {
@@ -346,7 +346,7 @@ h1.WebpageTitle {
 }
 
 p.paraformat {
-    font-size: 20px;
+    font-size: 17px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-right: 15px;
     padding-left: 15px;
@@ -359,7 +359,7 @@ p.paraformat {
 }
 
 ul.paraformat {
-    font-size: 20px;
+    font-size: 17px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-right: 15px;
     padding-left: 15px;
