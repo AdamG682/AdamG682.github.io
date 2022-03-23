@@ -24,18 +24,21 @@ div.floatRight {
 #SequelHeader {
     font-style: italic;
     text-align: center;
-    font-size: 60px;
+    font-size: 55px;
     color: white;
     text-shadow: 3px 3px black;
     overflow: hidden;
-    font-family: 'Pathway Gothic One', sans-serif;
+    font-family: 'Staatliches', cursive;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 #subTitleHeader {
     font-style: italic;
     padding: 5px;
     text-align: center;
-    font-size: 45px;
+    font-size: 38px;
+    font-weight: bold;
     overflow: hidden;
     color: whitesmoke;
     font-family: 'Pathway Gothic One', sans-serif;
@@ -43,10 +46,13 @@ div.floatRight {
 
 #subTitleHeader a {
     color: whitesmoke;
+    font-size: 38px;
 }
 
 #subTitleHeader a:hover {
     color: black;
+    font-size: 40px;
+    transition: all 0.3s ease-in-out;
 }
 
 #subTitleBackground {
@@ -92,6 +98,11 @@ div.floatRight {
     width: 65%;
     height: auto;
     border: 3px solid white;
+}
+
+.spacing{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 /*what page Changes*/
@@ -335,12 +346,11 @@ iframe {
 
 h1.WebpageTitle {
     font-size: 100px;
-    font-family: 'Pathway Gothic One', sans-serif;
+    font-family: 'Staatliches', cursive;
     font-weight: bold;
     font-display: swap;
     text-align: center;
     color: #FFC30B;
-    text-shadow: 5px 5px #2E4558;
     padding: 0;
     background-color: black;
 }

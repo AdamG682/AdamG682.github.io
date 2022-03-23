@@ -9,64 +9,76 @@
     <title>Star Wars Eras</title>
     <link rel="stylesheet" href='placeHoldersStyles.css'>
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Pathway Gothic One'>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 
 <body>
     <!--Main Title of Webpage-->
     <header>
         <h1 class="WebpageTitle">Star Wars Know It All</h1>
+
+        <!--Nav Bar Across Entire Website-->
+
+        <div class="col-sm-12">
+
+            <div class="col-sm-1">
+                <ul class="nav nav-fill justify-content-center">
+                    <li class="nav-item">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="Images/Star Wars.png" width="75" height="35" alt="HomeLogo">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-11">
+                <nav>
+                    <ul class="nav nav-fill justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="eraCollection.html">Star Wars Eras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Galactic Randomizer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Javascript Game</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="nestedAdam.html">Future Projects to Come</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="styles.html">Wacky Styles</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" data-toggle="dropdown" href="" role="button"
+                                aria-expanded="false">Meet Our Team</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item text-light" href="ThomasBio.html">Thomas Bio</a>
+                                <a class="dropdown-item text-light" href="BraxtonBio.html">Braxton Bio</a>
+                                <a class="dropdown-item text-light" href="AdamGilesBio.html">Adam Bio</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item text-light" href="what.html">What is Star War to Us</a>
+                                <a class="dropdown-item text-light" href="AdamGilesBio.html">Personal Opinions</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
 
-    <!--Nav Bar Across Entire Website-->
-    <div class="col-sm-12">
-        <nav> 
-         <ul class="nav nav-fill justify-content-center">
-             <li class="nav-item">
-                 <a class="navbar-brand" href="index.html">
-                     <img src="Images/Star Wars.png" width="60" height="30" alt="HomeLogo">
-                   </a>
-             </li>
-             <li class="nav-item">
-                 <a class="nav-link text-light" href="what.html">What is Star Wars</a>
-             </li>
-             <li class="nav-item">
-                 <a class="nav-link text-light" href="eraCollection.html">Star Wars Eras</a>
-             </li>
-             <li class="nav-item">
-                 <a class="nav-link text-light" href="PersonalOpinions.html">Personal Opinions</a>
-             </li>
-             <li class="nav-item">
-                 <a class="nav-link text-light" href="nestedAdam.html">Future Projects to Come</a>
-             </li>
-             <li class="nav-item">
-                 <a class="nav-link text-light" href="styles.html">Wacky Styles</a>
-             </li>
-             <li class="nav-item dropdown">
-                 <a class="nav-link dropdown-toggle text-light" data-toggle="dropdown" href="" role="button"
-                     aria-expanded="false">Meet Our Team</a>
-                 <div class="dropdown-menu">
-                     <a class="dropdown-item text-light" href="ThomasBio.html">Action</a>
-                     <a class="dropdown-item text-light" href="BraxtonBio.html">Another action</a>
-                     <a class="dropdown-item text-light" href="AdamGilesBio.html">Something else here</a>
-                 </div>
-             </li>
-         </ul>
-     </nav>
-     </div>
-
     <!--Establishing Main Styles Such As Background Images and Background For Information (concept created by the entire team, built by Adam)-->
-    <div class="col-12" id="ImageBackground">
-        <div class="col-1"></div>
+    <div class="col-sm-12" id="ImageBackground">
+        <div class="col-sm-1"></div>
 
-        <div id="subTitleBackground" class="col-10">
+        <div id="subTitleBackground" class="col-sm-10">
             <div class="loading">
                 <div class='row'>
 
                     <!--Sub Title for Specific Webpage-->
-                    <div class='col-12'>
+                    <div class='col-sm-12'>
                         <h1 id="SequelHeader">Cinematic Star Wars Eras</h1>
                     </div>
 
@@ -75,9 +87,9 @@
                 <!--Coming Soon Section of Webpage-->
                 <div class='row'>
 
-                    <div class="col-12">
+                    <div class="col-sm-12">
 
-                        <!--Image Section-->
+                        <!--Image Section
                         <div class="row blur">
                             <div class='col-4'>
                                 <a href="thomasRuiz.html"><img src="Images\RepublicCollage.jpg" class="responsiveImg whatPictures"
@@ -93,12 +105,56 @@
                                 <a href="sequelTrilogyAdam.html"><img src="Images\NewRepublicCollage.jpg"
                                         class="responsiveImg sequelEra" alt="New Republic Collage"></a>
                             </div>
+                        </div>-->
+
+                        <div class="card-deck row blur">
+
+                            <div class="col-sm-4 card text-white bg-dark mb-3 text-center" style="max-width: 22rem;">
+                                <a href="thomasRuiz.html"><img src="Images\RepublicCollage.jpg"
+                                        class="responsiveImg whatPictures" alt="Republic Collage"></a>
+                                <div class="card-body">
+                                    <h3 class="card-title">Republic Era</h3>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">Webpage by Thomas Ruiz</small>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 card text-white bg-dark mb-3 text-center" style="max-width: 22rem;">
+                                <a href="Braxton.html"><img src="Images\RebellionCollage.jpg"
+                                        class="responsiveImg ogTrilogyEra" alt="Rebellion Collage"></a>
+                                <div class="card-body">
+                                    <h3 class="card-title">Rebellion Era</h3>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">Webpage by Braxton Chapman</small>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 card text-white bg-dark mb-3 text-center" style="max-width: 22rem;">
+                                <a href="sequelTrilogyAdam.html"><img src="Images\NewRepublicCollage.jpg"
+                                        class="responsiveImg sequelEra" alt="New Republic Collage"></a>
+                                <div class="card-body">
+                                    <h3 class="card-title">New Republic Era</h3>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">Webpage by Adam Giles</small>
+                                </div>
+                            </div>
                         </div>
+
+
                     </div>
 
                 </div>
+
+
+
+
+
+
             </div>
-            <div class="col-1"></div>
+            <div class="col-sm-1"></div>
 
         </div>
     </div>
