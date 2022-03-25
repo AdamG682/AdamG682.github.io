@@ -227,7 +227,7 @@ hr {
 nav a {
     color: white;
     display: block;
-    padding: 5px 20px;
+    padding: 7px 17px;
     text-decoration: none;
 }
 
@@ -239,7 +239,7 @@ nav a {
 nav a:hover {
     text-decoration: none;
     background-color: #2E4558;
-    padding: 5px 20px;
+    padding: 7px 17px;
     border-radius: 5px;
     transition: all 0.3s ease-in-out;
     box-shadow: 0 0 10px steelblue, 0 0 10px steelblue, 0 0 20px #edd;
