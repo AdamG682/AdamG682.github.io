@@ -1,10 +1,8 @@
 
 
 var playerName = document.getElementById("player-name");
-//var botaoInicia = document.querySelector('#iniciar-jogo');
 var janelaInicial = document.getElementById('game-begin');
 var apostaButton = document.getElementById('fazerAposta');
-//var apostaDIV = document.getElementById('aposta');
 var continuaAposta = document.getElementById('continua-aposta');
 var statsDiv = document.getElementById("stats");
 
@@ -119,16 +117,16 @@ function checkBlackjack(x1,x2){
 function setIcon(suit){
 
 	if(suit =="clubs"){
-		return "http://www.i2symbol.com/images/symbols/cards/black_club_suit_u2663_icon_256x256.png";
+		return "https://static.wikia.nocookie.net/starwars/images/9/90/Sylop.png/revision/latest?cb=20180530101050";
 	}
 	else if(suit =="hearts"){
-		return "http://www.i2symbol.com/images/symbols/cards/black_heart_suit_u2665_icon_256x256.png";
+		return "https://static.wikia.nocookie.net/starwars/images/9/90/Sylop.png/revision/latest?cb=20180530101050";
 	}
 	else if(suit =="diamonds"){
-		return "http://www.i2symbol.com/images/symbols/cards/black_diamond_suit_u2666_icon_256x256.png";
+		return "https://static.wikia.nocookie.net/starwars/images/9/90/Sylop.png/revision/latest?cb=20180530101050";
 	}
 	else if(suit =="spades"){
-		return "http://www.i2symbol.com/images/symbols/cards/black_spade_suit_u2660_icon_256x256.png";
+		return "https://static.wikia.nocookie.net/starwars/images/9/90/Sylop.png/revision/latest?cb=20180530101050";
 	}
 
 }
