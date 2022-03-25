@@ -105,6 +105,12 @@ div.floatRight {
     padding-bottom: 30px;
 }
 
+#cardButton{
+    font-family: 'Staatliches', cursive;
+    font-size: 27px;
+    color: white;
+}
+
 /*what page Changes*/
 
 .whatPictures {
@@ -360,7 +366,7 @@ p.paraformat {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-right: 15px;
     padding-left: 15px;
-    color: antiquewhite;
+    color: white;
     text-align: center;
     content: "";
     clear: both;
@@ -688,7 +694,7 @@ body {
 /*Background Color Animation Personal Bio Page*/
 
 #animatedBackground {
-    background: linear-gradient(45deg, #436aac, #43b7b8, #8929ad);
+    background: linear-gradient(45deg,#fb7a24, #b098a2, #5a2c35);
     background-size: 400% 400%;
     animation: gradient 10s ease infinite;
     height: 100vh;
@@ -718,19 +724,22 @@ body {
 
 @keyframes color {
     0% {
-        color: #436aac;
+        color: #b098a2;
     }
-    25% {
-        color: #43b7b8;
+    20% {
+        color: #925e68;
     }
-    50% {
-        color: #8929ad;
+    40% {
+        color: #b098a2;
     }
-    75% {
-        color: #43b7b8;
+    60% {
+        color: #b098a2;
+    }
+    80% {
+        color: #fda062;
     }
     100% {
-        color: #436aac;
+        color: #b098a2;
     }
 }
 
@@ -742,14 +751,11 @@ body {
 
 .steamHeader {
     text-align: center;
-    font-style: italic;
-    font-size: 50px;
-    font-family: 'Pathway Gothic One', sans-serif;
+    font-family: 'Staatliches', cursive;
     overflow: hidden;
-    background-color: black;
     padding: 15px 15px;
     border-radius: 10px;
-    width: 75%;
+    width: 60%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
