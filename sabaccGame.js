@@ -63,8 +63,8 @@ nameButton.addEventListener('click', function (event) {
 		var playerName = document.getElementById("player-name");
 		startBaralho();
 
-	    playerName.innerHTML = "<strong>Player: </strong>"+document.getElementById('getPlayer-name').value;        
-	    saldoPlayerDIV.innerHTML = "<strong>Balance:</strong> $"+ saldoPlayer;
+	    playerName.innerHTML = "<strong>You: </strong>"+document.getElementById('getPlayer-name').value;        
+	    saldoPlayerDIV.innerHTML = "<strong>Credit Balance:</strong> $"+ saldoPlayer;
 	    janelaInicial.style.visibility = "hidden";
     }else{
     	alert("Insert a valid name!");
@@ -148,7 +148,7 @@ function puxaCarta(jogador){
 		
 		var preSoma = playerResult.innerHTML;
 		playerSoma = playerSoma + cartaTemp.valor;
-		playerResult.innerHTML = '<strong>Player:</strong>' +playerSoma;//preSoma + " + " + cartaTemp.valor +" = " + playerSoma;
+		playerResult.innerHTML = '<strong>You:</strong>' +playerSoma;//preSoma + " + " + cartaTemp.valor +" = " + playerSoma;
 
 	}
 	else{
@@ -157,7 +157,7 @@ function puxaCarta(jogador){
 
 		var preSoma = compSoma.innerHTML;
 		compSoma = compSoma + cartaTemp.valor;
-		compResult.innerHTML = '<strong>Computer:</strong>' + compSoma;
+		compResult.innerHTML = '<strong>Max Rebo:</strong>' + compSoma;
 	}
 
 	return cartaTemp.tipo;
@@ -206,17 +206,17 @@ function setSaldo(valorAposta,estado){
 	
 	if(estado == "ganhou"){
 		saldoPlayer += valorAposta*2;
-		saldoPlayerDIV.innerHTML = "<strong>Balance:</strong> "+ saldoPlayer;
-		resultText.innerHTML = "You Won";	
+		saldoPlayerDIV.innerHTML = "<strong>Credit Balance:</strong> "+ saldoPlayer;
+		resultText.innerHTML = "YOU WON";	
 	}else if(estado == "blackjack"){
 		saldoPlayer += valorAposta*2;
-		saldoPlayerDIV.innerHTML = "<strong>Balance:</strong> $"+ saldoPlayer;
-		resultText.innerHTML = "BLACKJACK";	
+		saldoPlayerDIV.innerHTML = "<strong>Credit Balance:</strong> $"+ saldoPlayer;
+		resultText.innerHTML = "SABACC!";	
 	}
 	else{
 		saldoPlayer -= valorAposta;		
-		saldoPlayerDIV.innerHTML = "<strong>Balance:</strong> $"+ saldoPlayer;	
-		resultText.innerHTML = "You Lose";
+		saldoPlayerDIV.innerHTML = "<strong>Credit Balance:</strong> $"+ saldoPlayer;	
+		resultText.innerHTML = "YOU LOSE";
 	}
 
 	   continueButton.addEventListener('click', function (event) {
@@ -227,11 +227,11 @@ function setSaldo(valorAposta,estado){
 	    	continuaAposta.style.display = 'none';
 		   	playerSoma = 0;
 		   	compSoma = 0;
-		   	playerResult.innerHTML = '<strong>Player:</strong>';
-		   	compResult.innerHTML = '<strong>Computer:</strong>';
+		   	playerResult.innerHTML = '<strong>You:</strong>';
+		   	compResult.innerHTML = '<strong>Max Rebo:</strong>';
 		   	statsDiv.style.display = "none";
-		   	cartasPlayer.innerHTML = '<h4>Player</h4>';
-		   	cartasComp.innerHTML = '<h4>Computer</h4>';
+		   	cartasPlayer.innerHTML = '<h4>You</h4>';
+		   	cartasComp.innerHTML = '<h4>Max Rebo</h4>';
 
     });
 	

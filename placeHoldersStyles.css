@@ -809,10 +809,14 @@ h3.creatorText {
 }
 
 /*Game Styling*/
-.textBox {
-    width: 30%;
-    font-size: 20px;
-    text-align: center;
+.userInputs {
+    width: 50%;
+    font-size: 25px;
+}
+
+.buttonWidth{
+    width: 60%;
+    font-size: 25px;
 }
 
 
