@@ -196,7 +196,6 @@ hr {
 .navigation {
     position: relative;
     font-size: 20px;
-
 }
 
 .dropdownCool {
@@ -272,7 +271,7 @@ nav>ul>li {
 
 iframe {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .center {
@@ -357,7 +356,6 @@ h1.WebpageTitle {
     font-display: swap;
     text-align: center;
     color: #FFC30B;
-    padding: 0;
     background-color: black;
 }
 
@@ -809,3 +807,12 @@ h3.creatorText {
 .navFont{
     font-size: 25px;;
 }
+
+/*Game Styling*/
+.textBox {
+    width: 30%;
+    font-size: 20px;
+    text-align: center;
+}
+
+
