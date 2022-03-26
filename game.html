@@ -78,13 +78,15 @@
                 <div class='row'>
 
                     <!--Sub Title for Specific Webpage-->
-                    <div class='col-sm-12 display-3 text-center'>
-                        <h1>Blackjack Sabacc Card Game</h1>
+                    <div class='col-sm-12 text-center'>
+                        <h1 class="display-2 gameFont bg-dark">Blackjack Sabacc Card Game</h1>
                     </div>
+
+                    <div class="py-3"></div>
 
                     <div class="col-sm-12">
 
-                        <div id="game-begin" class="container d-flex justify-content-center">
+                        <div id="game-begin" class="container d-flex justify-content-center gameFont">
                             <div class="form-group row userInputs">
                                 <input type="name" class="form-control text-center" id="getPlayer-name"
                                     placeholder="Please Enter Your Name To Play A Friendly Game of Sabacc...">
@@ -99,13 +101,13 @@
 
                             <div class="col-sm-12 text-center">
 
-                                <h1 id="player-name">Player Name:</h1>
-                                <h3 id="enteredName"></h3>
+                                <h1 id="player-name" class="gameFont">Player Name:</h1>
+                                <h3 id="enteredName" class="gameFont"></h3>
 
                                 <div class="py-3"></div>
 
                                 <div id="aposta" class="container d-flex justify-content-center">
-                                    <div class="form-group row userInputs">
+                                    <div class="form-group row userInputs gameFont">
                                         <h3 for="usr">Current Bet:</h3>
                                         <select class="form-control text-center" id="valorAposta">
                                             <option value="100">100 Imperial Credits</option>
@@ -115,13 +117,14 @@
                                             <option value="500">500 Imperial Credits</option>
                                             <option value="1000">1000 Imperial Credits</option>
                                         </select>
-                                        <button id="fazerAposta" class="btn btn-dark btn-lg">Place Your Bet</button>
+                                        <button id="fazerAposta" class="btn btn-dark btn-lg gameFont">Place Your
+                                            Bet</button>
                                     </div>
                                 </div>
 
                                 <div class="py-3"></div>
 
-                                <div id="continua-aposta" class="col-sm-12 text-center">
+                                <div id="continua-aposta" class="col-sm-12 text-center gameFont">
 
                                     <div class="col-sm-4"> <button id="hit-button" type="button"
                                             class="btn btn-dark btn-lg buttonWidth">Hit</button>
@@ -132,64 +135,57 @@
                                     </div>
 
                                     <div id="final-result" class="col-sm-4">
-                                        <button id="continue-button" type="button" class="btn btn-dark btn-lg buttonWidth">Play
+                                        <button id="continue-button" type="button"
+                                            class="btn btn-dark btn-lg buttonWidth">Play
                                             Again?</button>
                                     </div>
 
                                 </div>
 
-                            </div>
+
+                                <div id="stats" class="row">
+                                    <div class="col-sm-12 text-center gameFont">
+
+                                        <div class="col-sm-4">
+                                            <h1 id="player-resultado">You:</h2>
+                                        </div>
 
 
-                            <div id="stats" class="row">
-                                <div class="col-sm-12 text-center">
+                                        <div class="col-sm-4">
+                                            <h1 id="comp-resultado">Max Rebo:</h2>
+                                        </div>
 
-                                    <div class="col-sm-4">
-                                        <h2 id="player-resultado"><strong>You:</strong></h2>
+
+                                        <div id="final-result" class="col-sm-4">
+                                            <h2 id="result-text"></h2>
+                                        </div>
+
                                     </div>
-
-
-                                    <div class="col-sm-4">
-                                        <h2 id="comp-resultado"><strong>Max Rebo:</strong></h2>
-                                    </div>
-
-
-                                    <div id="final-result" class="col-sm-4">
-                                        <h2 id="result-text"></h2>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div id="game" class=" col-sm-12">
-
-                                <div id="cartas-player" class="col-sm-6 text-center">
-                                    <h4>You</h4>
                                 </div>
 
-                                <div id="cartas-comp" class="col-sm-6 text-center">
-                                    <h4>Max Rebo</h4>
+                                <div id="game" class="col-sm-12 gameFont bg-dark">
+
+                                    <div id="cartas-player" class="col-sm-6 text-center borderRight">
+                                        <h4>You</h4>
+                                    </div>
+
+                                    <div id="cartas-comp" class="col-sm-6 text-center">
+                                        <h4>Max Rebo</h4>
+                                    </div>
                                 </div>
 
                             </div>
 
                         </div>
-
-
-
-
-
+                        
                     </div>
 
-
-
-
-
-
-
                 </div>
+
             </div>
+
         </div>
+
     </div>
 
     <div class="col-sm-1"></div>

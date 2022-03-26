@@ -811,12 +811,38 @@ h3.creatorText {
 /*Game Styling*/
 .userInputs {
     width: 50%;
-    font-size: 25px;
 }
 
 .buttonWidth{
     width: 60%;
-    font-size: 25px;
 }
 
+.gameFont{
+    text-align: center;
+    font-weight: lighter;
+    color: white;
+    overflow: hidden;
+    font-family: 'Staatliches', cursive;
+}
 
+.carta{
+    float: left;
+    position: relative;
+	height: 210px;
+	width: 130px;
+	border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding-right: 0;
+}
+
+#cartas-player > div{
+    margin-right: 10px;
+}
+#cartas-comp > div{
+    margin-right: 10px;
+}
+
+.borderRight{
+    border-right: white 1px solid;
+}

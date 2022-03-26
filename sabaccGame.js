@@ -63,11 +63,11 @@ nameButton.addEventListener('click', function (event) {
 		var playerName = document.getElementById("player-name");
 		startBaralho();
 
-	    playerName.innerHTML = "<strong>You: </strong>"+document.getElementById('getPlayer-name').value;        
-	    saldoPlayerDIV.innerHTML = "<strong>Credit Balance:</strong> $"+ saldoPlayer;
+	    playerName.innerHTML = "You:"+document.getElementById('getPlayer-name').value;        
+	    saldoPlayerDIV.innerHTML = "<strong>Credit Balance:</strong>"+ saldoPlayer;
 	    janelaInicial.style.visibility = "hidden";
     }else{
-    	alert("Insert a valid name!");
+    	alert("Please enter a name if you want to play traveler.");
     }
 
 });
@@ -80,7 +80,7 @@ apostaButton.addEventListener('click',function(event){
     	valorAposta = document.getElementById('valorAposta').value;
     	iniciaJogada(valorAposta);	
     }else{
-    	alert("Not enought money");
+    	alert("Come back when you have enough credits.");
     }
     
 
@@ -117,16 +117,16 @@ function checkBlackjack(x1,x2){
 function setIcon(suit){
 
 	if(suit =="clubs"){
-		return "https://static.wikia.nocookie.net/starwars/images/9/90/Sylop.png/revision/latest?cb=20180530101050";
+		return 'Images/SabaccCard3.png';
 	}
 	else if(suit =="hearts"){
-		return "https://static.wikia.nocookie.net/starwars/images/9/90/Sylop.png/revision/latest?cb=20180530101050";
+		return 'Images/SabaccCard4.png';
 	}
 	else if(suit =="diamonds"){
-		return "https://static.wikia.nocookie.net/starwars/images/9/90/Sylop.png/revision/latest?cb=20180530101050";
+		return 'Images/SabaccCard5.png';
 	}
 	else if(suit =="spades"){
-		return "https://static.wikia.nocookie.net/starwars/images/9/90/Sylop.png/revision/latest?cb=20180530101050";
+		return 'Images/SabaccCard6.png';
 	}
 
 }
@@ -135,20 +135,18 @@ function puxaCarta(jogador){
 	
 	var x = Math.floor(Math.random() * 52);
 	var cartaTemp = baralho[x];
-	//saldoPlayer.innerHTML = "nipe:"+cartaTemp.nipe+"<br>tipo"+cartaTemp.tipo+"<br>valor"+cartaTemp.valor;
 	
 
 	var nipeTemp = setIcon(cartaTemp.nipe);
 
 	if(jogador == "player"){
-		//alert(cartasPlayer.innerHTML);	
 		var preCartas = cartasPlayer.innerHTML;
 
 		cartasPlayer.innerHTML = preCartas + '<div class="carta"><h4 class="carta-tipo">'+cartaTemp.tipo+'</h4><img class="carta-imagem" src="'+nipeTemp+'"></div>';			
 		
 		var preSoma = playerResult.innerHTML;
 		playerSoma = playerSoma + cartaTemp.valor;
-		playerResult.innerHTML = '<strong>You:</strong>' +playerSoma;//preSoma + " + " + cartaTemp.valor +" = " + playerSoma;
+		playerResult.innerHTML = 'You:' +playerSoma;
 
 	}
 	else{
@@ -157,7 +155,7 @@ function puxaCarta(jogador){
 
 		var preSoma = compSoma.innerHTML;
 		compSoma = compSoma + cartaTemp.valor;
-		compResult.innerHTML = '<strong>Max Rebo:</strong>' + compSoma;
+		compResult.innerHTML = 'Max Rebo:' + compSoma;
 	}
 
 	return cartaTemp.tipo;
@@ -206,16 +204,16 @@ function setSaldo(valorAposta,estado){
 	
 	if(estado == "ganhou"){
 		saldoPlayer += valorAposta*2;
-		saldoPlayerDIV.innerHTML = "<strong>Credit Balance:</strong> "+ saldoPlayer;
+		saldoPlayerDIV.innerHTML = "<strong>Credit Balance:</strong>"+ saldoPlayer;
 		resultText.innerHTML = "YOU WON";	
 	}else if(estado == "blackjack"){
 		saldoPlayer += valorAposta*2;
-		saldoPlayerDIV.innerHTML = "<strong>Credit Balance:</strong> $"+ saldoPlayer;
+		saldoPlayerDIV.innerHTML = "<strong>Credit Balance:</strong>"+ saldoPlayer;
 		resultText.innerHTML = "SABACC!";	
 	}
 	else{
 		saldoPlayer -= valorAposta;		
-		saldoPlayerDIV.innerHTML = "<strong>Credit Balance:</strong> $"+ saldoPlayer;	
+		saldoPlayerDIV.innerHTML = "<strong>Credit Balance:</strong>"+ saldoPlayer;	
 		resultText.innerHTML = "YOU LOSE";
 	}
 
@@ -227,8 +225,8 @@ function setSaldo(valorAposta,estado){
 	    	continuaAposta.style.display = 'none';
 		   	playerSoma = 0;
 		   	compSoma = 0;
-		   	playerResult.innerHTML = '<strong>You:</strong>';
-		   	compResult.innerHTML = '<strong>Max Rebo:</strong>';
+		   	playerResult.innerHTML = 'You:';
+		   	compResult.innerHTML = 'Max Rebo:';
 		   	statsDiv.style.display = "none";
 		   	cartasPlayer.innerHTML = '<h4>You</h4>';
 		   	cartasComp.innerHTML = '<h4>Max Rebo</h4>';
