@@ -846,3 +846,7 @@ h3.creatorText {
 .borderRight{
     border-right: white 1px solid;
 }
+
+.borderLeft{
+    border-left: white 1px solid;
+}
