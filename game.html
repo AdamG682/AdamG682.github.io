@@ -1,4 +1,4 @@
-<!--Javascript Game HTML-->
+<!--Javascript Sabacc (Blackjack) Card Game HTML (Adam)-->
 <!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
@@ -77,7 +77,7 @@
             <div class="loading">
                 <div class='row'>
 
-                    <!--Sub Title for Specific Webpage-->
+                    <!--Sabacc(Blackjack) Card Game-->
                     <div class='col-sm-12 text-center'>
                         <h1 class="display-2 gameFont bg-dark">Blackjack Sabacc Card Game</h1>
                     </div>
@@ -102,14 +102,14 @@
                             <div class="col-sm-12 text-center">
 
                                 <h1 id="player-name" class="gameFont">Player Name:</h1>
-                                <h3 id="enteredName" class="gameFont"></h3>
+                                <h3 id="player-balance" class="gameFont"></h3>
 
                                 <div class="py-3"></div>
 
-                                <div id="aposta" class="container d-flex justify-content-center">
+                                <div id="betDropDown" class="container d-flex justify-content-center">
                                     <div class="form-group row userInputs gameFont">
                                         <h3 for="usr">Current Bet:</h3>
-                                        <select class="form-control text-center" id="valorAposta">
+                                        <select class="form-control text-center" id="betAmount">
                                             <option value="100">100 Imperial Credits</option>
                                             <option value="150">150 Imperial Credits</option>
                                             <option value="200">200 Imperial Credits</option>
@@ -117,14 +117,14 @@
                                             <option value="500">500 Imperial Credits</option>
                                             <option value="1000">1000 Imperial Credits</option>
                                         </select>
-                                        <button id="fazerAposta" class="btn btn-dark btn-lg gameFont">Place Your
+                                        <button id="bettings" class="btn btn-dark btn-lg gameFont">Place Your
                                             Bet</button>
                                     </div>
                                 </div>
 
                                 <div class="py-3"></div>
 
-                                <div id="continua-aposta" class="col-sm-12 text-center gameFont">
+                                <div id="buttonSelection" class="col-sm-12 text-center gameFont">
 
                                     <div class="col-sm-4"> <button id="hit-button" type="button"
                                             class="btn btn-dark btn-lg buttonWidth">Hit</button>
@@ -135,7 +135,7 @@
                                     </div>
 
                                     <div id="final-result" class="col-sm-4">
-                                        <button id="continue-button" type="button"
+                                        <button id="againButton" type="button"
                                             class="btn btn-dark btn-lg buttonWidth">Play
                                             Again?</button>
                                     </div>
@@ -143,21 +143,21 @@
                                 </div>
 
 
-                                <div id="stats" class="row">
+                                <div id="numberCounter" class="row">
                                     <div class="col-sm-12 text-center gameFont">
 
                                         <div class="col-sm-4">
-                                            <h1 id="player-resultado">You:</h2>
+                                            <h1 id="playerTally">You:</h2>
                                         </div>
 
 
                                         <div class="col-sm-4">
-                                            <h1 id="comp-resultado">Max Rebo:</h2>
+                                            <h1 id="reboTally">Max Rebo:</h2>
                                         </div>
 
 
                                         <div id="final-result" class="col-sm-4">
-                                            <h2 id="result-text"></h2>
+                                            <h1 id="result-text"></h1>
                                         </div>
 
                                     </div>
@@ -165,11 +165,11 @@
 
                                 <div id="game" class="col-sm-12 gameFont bg-dark">
 
-                                    <div id="cartas-player" class="col-sm-6 text-center borderRight">
+                                    <div id="player-cards" class="col-sm-6 text-center borderRight">
                                         <h4>You</h4>
                                     </div>
 
-                                    <div id="cartas-comp" class="col-sm-6 text-center borderLeft">
+                                    <div id="rebo-cards" class="col-sm-6 text-center borderLeft">
                                         <h4>Max Rebo</h4>
                                     </div>
                                 </div>
@@ -191,8 +191,10 @@
     <div class="col-sm-1"></div>
     </div>
 
+    <!--referencing JS for the game-->
     <script src="sabaccGame.js"></script>
 
+    <!--bootstrap JS-->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
