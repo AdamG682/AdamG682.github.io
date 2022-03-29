@@ -802,6 +802,14 @@ h3.creatorText {
     overflow: hidden;
     padding-right: 5px;
 }
+.imgWraps{
+    width: 50%;
+    overflow: hidden;
+    padding-right: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .navFont{
     font-size: 25px;;
