@@ -10,7 +10,7 @@ function getRandNum() {
   if (min && max) {
       const randNum = Math.floor(Math.random() * (max - min) + min);
       document.getElementById('output').innerHTML = "<h2 class='col-12'>" + randNum.toString() + " Space Jesus</h2>";
-      let obi = '<img class= width="100" height="200" src="https://media.vanityfair.com/photos/5d56eac902bf930008778de7/3:2/w_1998,h_1332,c_limit/obi-wan-ewan-series.jpg" />';
+      let obi = '<img class= width="200" height="300" src="https://media.vanityfair.com/photos/5d56eac902bf930008778de7/3:2/w_1998,h_1332,c_limit/obi-wan-ewan-series.jpg" />';
 
       for (let i = 0; i < randNum; i++) {
           document.getElementById('output').innerHTML += obi;
