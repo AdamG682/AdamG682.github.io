@@ -19,6 +19,20 @@ function getRandNum() {
 
 }
 
+//Change an HTML element with a button press
+function createHTML()
+{
+  const element = document.getElementById("maxRebo");
+  element.innerHTML = "WOW, wasn't expecting Max Rebo" + "<img src= 'CloserRebo.jpg' style= 'width: 400px; height: 350px;'>"
+}
+
+function randomCSS()
+{
+  const randomColor = Math.floor(Math.random()*16777215).toString(16);
+  document.getElementById("Mandolorian").style.color = "#" + randomColor;
+  color.innerHTML = "#" + randomColor;
+}
+
 var answers = ["It is certain", 
                    "It is decidedly so", 
                    "Without a doubt", 
