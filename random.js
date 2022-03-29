@@ -1,7 +1,7 @@
 
 document.addEventListener('DOMContentLoaded', function () {
-  const getRandNumBtn = document.getElementById('btn');
-  getRandNumBtn.addEventListener('click', getRandNum);
+  const NumBtn = document.getElementById('btn');
+  NumBtn.addEventListener('click', getRandNum);
 });
 
 function getRandNum() {
