@@ -1,7 +1,7 @@
 
 document.addEventListener('DOMContentLoaded', function () {
-  const NumBtn = document.getElementById('btn');
-  NumBtn.addEventListener('click', getRandNum);
+  const numBtn = document.getElementById('btn');
+  numBtn.addEventListener('click', getRandNum);
 });
 
 function getRandNum() {
@@ -9,11 +9,11 @@ function getRandNum() {
   const max = parseInt(document.getElementById('max').value);
   if (min && max) {
       const randNum = Math.floor(Math.random() * (max - min) + min);
-      document.getElementById('output').innerHTML = "<h2 class='col-12'>" + randNum.toString() + " Space Jesus</h2>";
+      document.getElementById('result').innerHTML = "<h2 class='col-12'>" + randNum.toString() + " Space Jesus</h2>";
       let obi = '<img class= width="200" height="300" src="https://media.vanityfair.com/photos/5d56eac902bf930008778de7/3:2/w_1998,h_1332,c_limit/obi-wan-ewan-series.jpg" />';
 
       for (let i = 0; i < randNum; i++) {
-          document.getElementById('output').innerHTML += obi;
+          document.getElementById('result').innerHTML += obi;
       }
   }
 
