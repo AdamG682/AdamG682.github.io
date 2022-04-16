@@ -1,0 +1,7 @@
+{
+  "name": "CreditMiner",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
